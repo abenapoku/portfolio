@@ -11,6 +11,8 @@ import project3 from '../../public/images/projects/photography-web-app.png'
 import project4 from '../../public/images/projects/dashboard.png'
 import project5 from '../../public/images/projects/getaway-cabin.png'
 import project6 from '../../public/images/projects/notes-app.png'
+import project7 from '../../public/images/projects/AIpodcast.png'
+
 import TransitionEffect from '@/components/TransitionEffect'
 
 const FeaturedProject = ({type, title, summary, img, link, github}) =>{
@@ -115,7 +117,7 @@ const projects = () => {
                        type='Featured Projects'/>
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
-                    <Project title='Notes Web App'
+                    <Project title='Journal Web Application'
                        img={project6}
                        summary='A personal journal for any user to jot a note down, complete with backend authentication.'
                        link='https://github.com/abenapoku/notes-web-app' 
@@ -123,11 +125,20 @@ const projects = () => {
                        type='Featured Projects'/>
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
-                    <Project title='Podcast AI Web Application'
+                    <Project title='Getaway Cabin Website'
                        img={project5}
+                       summary=''
+                       link='https://getaway-frontend.vercel.app/' 
+                       github='/https://github.com/abenapoku/ai-podcast-generation'
+                       type='Featured Projects'/>
+                    </div>
+                    <div className='col-span-12'>
+                    <FeaturedProject 
+                       title='Podcast AI Web Application'
+                       img={project7}
                        summary='A SaaS web application that uses OpenAI to help the user generate their own podcast as well as thumbnail, complete with backend authentication.'
                        link='https://github.com/abenapoku/ai-podcast-generation' 
-                       github='/https://github.com/abenapoku/ai-podcast-generation'
+                       github='https://github.com/abenapoku/ai-podcast-generation'
                        type='Featured Projects'/>
                     </div>
 
