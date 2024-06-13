@@ -57,17 +57,17 @@ const Experience = () => {
                predict Industrial Machine Failures as well as their rates in order to boost preemptive
                maintenance practices for businesses.'/>
                 <Details 
-               position='Frontend Developer' company='freelance customer'
-               time='2024-Present' address='Lubbock, TX'
+               position='Full Stack Engineer' company='freelance'
+               time='2023-2024' address='Lubbock, TX'
                work='Utilized ReactJs as well as MySQL to curate a website for a small photography business. Created
                aesthetic and appealing frontend website in order to boost business as well as 
                provide a user-friendly format for customers.'/>
                 <Details 
-               position='Software Engineer' company='freelance customer'
-               time='2023-Present' address='Dallas, TX'
-               work='Worked with a team on a Saas software for a local family clinic, including
-               improving patient handling and providing new tools and frameworks for patients to 
-               recieve results, prescriptions, etc.'/>
+               position='Software Engineer Intern' company='Chatbud'
+               time='May 2023 - Aug 2023' address='Dallas, TX'
+               work='Oversaw the implementation of responsive web design using ReactJS, creating an engaging user experience
+                and ensuring cross-browser compatibility. Enhanced scalability and deployment efficiency by leveraging AWS cloud platform.
+                '/>
             </ul>
         </div>
     </div>
